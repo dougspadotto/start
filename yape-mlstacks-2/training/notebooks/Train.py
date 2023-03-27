@@ -61,7 +61,6 @@ profile = f"databricks-test" if test_mode else f"databricks-{env}"
 
 # COMMAND ----------
 
-
 r = Recipe(profile=profile)
 
 # COMMAND ----------
