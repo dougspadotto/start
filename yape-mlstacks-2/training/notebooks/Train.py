@@ -39,6 +39,7 @@
 ##################################################################################
 
 # COMMAND ----------
+
 # MAGIC %load_ext autoreload
 # MAGIC %autoreload 2
 
@@ -112,3 +113,7 @@ dbutils.jobs.taskValues.set("model_uri", model_uri)
 dbutils.jobs.taskValues.set("model_name", model_version.name)
 dbutils.jobs.taskValues.set("model_version", model_version.version)
 dbutils.notebook.exit(model_uri)
+
+# COMMAND ----------
+
+
